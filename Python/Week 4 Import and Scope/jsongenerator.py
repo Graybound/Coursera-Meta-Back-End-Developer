@@ -21,9 +21,9 @@ def create_dict(name, age, title):
 
     Returns:
         dict - A dictionary that maps "first_name", "age", and "title" to the
-               name, age, and title arguments, respectively. Make sure that 
-               the values are typecasted correctly (name - string, age - int, 
-               title - string)
+        name, age, and title arguments, respectively. Make sure that 
+        the values are typecasted correctly (name - string, age - int, 
+        title - string)
     """
     # WRITE SOLUTION HERE
     dict = {'first_name': str(name), 'age': int(age), 'title': str(title)}
@@ -53,7 +53,6 @@ def main():
     # Create employee dictionary
     employee_dict = create_dict(employee_name, age, title)
     print("employee_dict: " + str(employee_dict))
-
     ''' 
     Use a function called dumps from the json module to convert employee_dict
     into a json string and store it in a variable called json_object.

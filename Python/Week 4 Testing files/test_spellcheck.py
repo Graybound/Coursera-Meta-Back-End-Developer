@@ -25,8 +25,8 @@ def test_length(input_value):
         2. Use an assert statement to check the given string has fewer than 50 chars
 
     Args:
-      input_value: a function that returns a string, which can be configured
-                   in the input_value() function
+        input_value: a function that returns a string, which can be configured
+                    in the input_value() function
     """
     ### WRITE SOLUTION CODE HERE
     assert spellcheck.word_count(input_value) < 10
@@ -41,8 +41,8 @@ def test_struc(input_value):
         2. Use an assert statement to check the given string end with a period ('.')
 
     Args:
-      input_value: a function that returns a string, which can be configured
-                   in the input_value() function
+    input_value: a function that returns a string, which can be configured
+    in the input_value() function
     """
     ### WRITE SOLUTION CODE HERE
     assert spellcheck.first_char(input_value).isupper() == True

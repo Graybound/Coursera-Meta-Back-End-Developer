@@ -2,10 +2,10 @@ def read_file(file_name):
     """ Reads in a file.
 
     [IMPLEMENT ME]
-        1. Open and read the given file into a variable using the File read()
-           function
-        2. Print the contents of the file
-        3. Return the contents of the file
+        1.  Open and read the given file into a variable using the File read()
+            function
+        2.  Print the contents of the file
+        3.  Return the contents of the file
 
     Args:
         file_name: the name of the file to be read
@@ -51,9 +51,9 @@ def write_first_line_to_file(file_contents, output_filename):
     """ Writes the first line of a string to a file.
 
     [IMPLEMENT ME]
-        1. Get the first line of file_contents
-        2. Use the File write() function to write the first line into a file
-           with the name from output_filename
+        1.  Get the first line of file_contents
+        2.  Use the File write() function to write the first line into a file
+            with the name from output_filename
 
         We determine the first line to be everything in a string before the
         first newline ('\n') character.

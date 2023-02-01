@@ -30,8 +30,7 @@ def timeConstraint():
 
 
 def initialize(numOfDisks):
-    tempTowerMatrix = [[0]*numOfDisks, [0]*numOfDisks,
-                       [0]*numOfDisks]  # np.zeros((3, numOfDisks), int)
+    tempTowerMatrix = [[0]*numOfDisks, [0]*numOfDisks, [0]*numOfDisks]  # np.zeros((3, numOfDisks), int)
     num = 1
     iDiskList = {}
     iDiskList[0] = ['disk number', 'size',
