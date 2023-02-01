@@ -10,7 +10,21 @@ some_array[[0, 3],[0,0]] = some_array[[3, 0],[0,0]]
 # view updated NumPy array
 print('swapped:\n',some_array) """
 
+""" 
+class Fruit():
+    def __init__(self, fruit):
+        print('Fruit type: ', fruit)
+    sweet = "yes"
 
-z = ["alpha", "bravo", "charlie"]
-new_z = [i[0]*2for i in z]
-print(new_z)
+
+class FruitFlavour(Fruit):
+    def __init__(self):
+        super().__init__('Apple')
+        print('Apple is sweet')
+
+
+apple = FruitFlavour()
+print(apple.sweet) """
+import math
+import importlib
+importlib.reload(math)
