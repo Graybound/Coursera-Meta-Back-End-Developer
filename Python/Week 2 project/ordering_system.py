@@ -74,7 +74,7 @@ def summarize_order(order):
     names = [item["name"] for item in order]
     return names, total
 
-# This function is provided for you, and will print out the items in an order
+# This function will print out the items in an order
 def print_order(order):
     print('You have ordered ' + str(len(order)) + ' items')
     items = []
@@ -82,14 +82,14 @@ def print_order(order):
     print(items)
     return order
 
-# This function is provided for you, and will display the menu
+# This function will display the menu
 def display_menu():
     print("------- Menu -------")
     for selection in menu:
         print(f"{selection}. {menu[selection]['name'] : <9} | {menu[selection]['price'] : >5}")
     print()
 
-# This function is provided for you, and will create an order by prompting the user to select menu items
+# This function will create an order by prompting the user to select menu items
 def take_order():
     display_menu()
     order = []
